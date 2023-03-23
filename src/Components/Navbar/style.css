@@ -1,0 +1,10 @@
+ 
+
+.navLink{
+  font-family: Gilroy;
+  color: black;
+  font-weight: 600;
+}
+.navbar-custom .navbar-collapse {
+  top: 60px; /* adjust as needed */
+}

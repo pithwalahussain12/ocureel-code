@@ -1,0 +1,27 @@
+@font-face {
+    font-family: GoodBrush;
+    src: url(./fonts/good_brush/Good\ Brush.ttf);
+}
+
+@font-face {
+    font-family: GilroyLight;
+    src: url(./fonts/Gilroy/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(./fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: BrittanySignature;
+    src: url(./fonts/brittany_signature//BrittanySignature.ttf);
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(./fonts/Caveat/Caveat.ttf);
+}
+body{
+    overflow-x: hidden;
+}

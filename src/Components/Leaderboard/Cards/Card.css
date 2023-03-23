@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    width: 90%;
+}
+
+th,
+td {
+    border: none;
+    padding: 5px;
+    text-align: left;
+}
+th{
+    font: bold 12px Gilroy;
+}
+
+td{
+    font-size: 11px;
+    font-weight: 500;
+    font-family: Gilroy;
+}
+
+
+th, tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+.leaderboard-card {
+    box-shadow: 0px 4px 25px #00000014;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.card-header h2 {
+    top: 2276px;
+    left: 119px;
+    width: 162px;
+    height: 7px;
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal bold 15px Gilroy;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.card-header p {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 11px;
+}

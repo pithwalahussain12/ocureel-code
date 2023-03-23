@@ -1,0 +1,130 @@
+@font-face {
+  font-family: BrittanySignature;
+  src: url(../../fonts/brittany_signature/BrittanySignature.ttf);
+}
+
+ 
+
+.launching-counter {
+  background: url("https://images.pexels.com/photos/4577548/pexels-photo-4577548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh 0vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-logo {
+  width: 200px;
+  margin: 4rem 0rem;
+}
+
+.launching-counter-title {
+  font-size: 45px/93px;
+  font-family: BrittanySignature;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.launching-counter-values {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.launching-counter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.launching-counter-value {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.launching-counter-label {
+  font-size: 24px/29px;
+  font-family: Gilroy;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+
+.app-store-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  color: white;
+  width: 100%;
+}
+
+.app-store-btn p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.app-store-btn svg {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}
+
+/* .app-store-btn{
+    display: flex;
+    align-items: center;
+    width: 22%;
+    margin-top: 4rem;
+    justify-content: space-between;
+  }
+  .app-store-btn p{
+    font-size: small;
+    font-family: Gilroy;
+    font-weight: 600;
+    color: white;
+
+  } */
+@media (max-width: 768px) {
+  .launching-counter {
+    font-size: 18px;
+  }
+
+  .launching-counter-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .launching-counter-values {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .launching-counter-item {
+    margin: 0 10px;
+  }
+
+  .launching-counter-value {
+    font-size: 36px;
+  }
+
+  .launching-counter-label {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+

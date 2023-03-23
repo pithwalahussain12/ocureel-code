@@ -1,0 +1,44 @@
+@font-face {
+   font-family: GoodBrush;
+   src: url(../../fonts/good_brush/Good\ Brush.ttf);
+}
+.subscribe__container{
+   background-image: url("../../assets/form-bg.jpg");
+    background-repeat: no-repeat;
+    padding: 12rem 180px;
+    background-size: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.subscribe__container form{
+   background-color: white;
+   width: 22rem;
+   padding: 2rem;
+}
+.subscribe__container form h1{
+  font-family: GoodBrush;
+}
+.subscribe__container input{
+    border: none;
+    outline: none;
+   border-bottom: 1px solid gray;
+   width: 100%;
+}
+.subscribe__container button{
+   background-color: black;
+   color: white;
+   padding: 0.5rem 2rem;
+   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+   .subscribe__container{
+      background-size: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+   }
+}

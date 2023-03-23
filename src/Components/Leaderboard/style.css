@@ -1,0 +1,128 @@
+
+
+.leaderboard__card1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 6rem;
+}
+
+.leaderboard__card1__text__content {
+  font-size: small;
+  font-weight: 600;
+  font-family: Gilroy;
+  width: 480px;
+  line-height: 1.5rem;
+}
+
+.leaderboard {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+}
+
+.leaderboard__card2 {
+  position: relative;
+  overflow: hidden;
+  background-color: #fafafa;
+  height: 70vh;
+  padding: 1rem 15rem;
+}
+
+.leaderboard__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.leaderboard__header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.leaderboard__button {
+  background-color: #20c997;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.leaderboard__button:hover {
+  background-color: #28a745;
+  cursor: pointer;
+}
+
+.leaderboard__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboard__item {
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.leaderboard__item-number {
+  background-color: #20c997;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  /* align */
+}
+
+
+.leaderboard__item-number {
+  background-color: #20c997;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 30px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.leaderboard__item-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.leaderboard__item-name {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.leaderboard__item-score {
+  color: #999;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .leaderboard {
+    width: 100%;
+  }
+}
+
+.point__guide__card__group {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  /* Two rows with equal height */
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns with equal width */
+  gap: 5%;
+  /* Set a gap between grid items */
+  justify-content: center;
+  width: 70vw;
+  margin: 7% 0% 0% 10%;
+
+}

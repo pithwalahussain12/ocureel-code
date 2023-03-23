@@ -1,0 +1,16 @@
+.player {
+    z-index:  0 ;
+    margin-left: 20rem;
+    box-shadow:  -7px -7px 3px rgb(169, 168, 168);
+    width:  300px ;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden
+}
+.vimeo__container{
+    position: relative;
+    margin: 8rem 0rem;
+}
+.card__orientation{
+    background-color: red;
+}

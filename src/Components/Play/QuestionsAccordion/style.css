@@ -1,0 +1,45 @@
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-logo {
+    height: 10px;
+    margin-right: 10px;
+  }
+  
+  .accordion-title {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .accordion-icon {
+    font-size: 24px;
+  }
+  
+  .accordion-icon.open {
+    transform: rotate(45deg);
+  }
+  
+  .accordion-content {
+    padding: 10px;
+  }
+  
+
+  @media only screen and (max-width: 480px) {
+    .accordion {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 300px;
+    }
+  }

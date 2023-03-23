@@ -1,0 +1,18 @@
+.privacy__container h1{
+    font-family: GoodBrush;
+}
+.privacy__heading{
+    font-family: Gilroy;
+}
+
+@media only screen and (max-width: 480px) {
+    .privacy__container{
+        padding: .5rem !important;
+        width: 100%;
+
+
+    }
+    .privacy__links{     
+        word-break: break-all;
+    }
+}

@@ -1,0 +1,48 @@
+.border-container {
+    width: 75%;
+    border-bottom: 1px dashed #707070;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.border-points-color1, .border-points-color2, .border-points-color3, .border-points-color4, .border-points-color5{
+    min-width: 1%;
+    min-height: 1%;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+.color-point{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.border-points-color1{
+    position: absolute;
+    top: -5%;
+    background-color: #131176;
+}
+.border-points-color2{
+    position: absolute;
+    left: 25%;
+    background-color: #891788;
+}
+.border-points-color3{
+    position: absolute;
+    left: 50%;
+    background-color: #F22845;
+}
+.border-points-color4{
+    position: absolute;
+    left: 75%;
+    background-color: #F9DD05;
+}
+.border-points-color5{
+    position: absolute;
+    left: 100%;
+    background-color: #2AB404;
+}

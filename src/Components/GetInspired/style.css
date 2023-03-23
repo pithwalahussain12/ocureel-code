@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Good-brush;
+    src: url(../../fonts/good_brush/Good\ Brush.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../../fonts/Gilroy/Gilroy-Medium.ttf);
+  }
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.caption h1{
+    font-size: 70px/90px;
+    font-family: Good-brush;
+}
+.get__inspired{
+    padding-top: 8rem;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem 2rem 1rem;
+    width: 100vw;
+    height: 54px;
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal medium 20px/30px Gilroy ☞;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.caption p {
+    width: 780px;
+    font-family: Gilroy;
+}

@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+.VIP__container{
+    background-image: url("../../assets/form-bg.jpg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    padding: 4rem 180px;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.VIP__caption{
+    color: white;
+    font-weight:  600;
+    font-size: 60px/73px;
+    font-family: Gilroy; 
+    width: 40%;
+}
+.VIP__container form{
+   background-color: white;
+   width: 25rem;
+   padding: 2rem 3rem;
+   display: flex;
+   flex-direction: column;
+}
+.VIP__container input{
+    border: none;
+    outline: none;
+    font-family: Gilroy;
+    font-weight: 300;
+   border-bottom: 1px solid gray;
+   width: 100%;
+}
+.VIP__container button{
+   background-color: black;
+   color: white;
+   padding: 0.5rem 2rem;
+   margin-top: 1rem;
+   width: fit-content;
+}
+
+.VIP__discription{
+    font-family: Gilroy;
+    font-weight: 300;
+    font-size: 15px/20px;
+    letter-spacing: 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    resize: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .VIP__container{
+        background-size: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .VIP__caption{
+        color: white;
+        font-weight:  600;
+        font-size: 60px/73px;
+        font-family: Gilroy; 
+        width: 95vw;
+    }
+
+
+    .VIP__container form{
+        background-color: white;
+        width: 20rem;
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+     }
+     .VIP__container input{
+         border: none;
+         outline: none;
+         font-family: Gilroy;
+         font-weight: 300;
+        border-bottom: 1px solid gray;
+        width: 100%;
+     }
+     .VIP__container button{
+        background-color: black;
+        color: white;
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
+        width: fit-content;
+     }
+     
+     .VIP__discription{
+         font-family: Gilroy;
+         font-weight: 300;
+         font-size: 15px/20px;
+         letter-spacing: 0px;
+         border: none;
+         outline: none;
+         border-bottom: 1px solid gray;
+         resize: none;
+     }
+}

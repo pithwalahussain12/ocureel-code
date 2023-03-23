@@ -1,0 +1,23 @@
+.tos__link{
+    word-break: break-all;
+}
+.tos__heading{
+    font-family: GoodBrush;
+    padding-left: 2rem;
+}
+.tos__subheading{
+    font-family: Gilroy;
+    font-size: medium;
+}
+
+@media only screen and (max-width: 480px) {
+    .tos__container{
+        padding: .5rem !important;
+        width: 100%;
+
+
+    }
+    .privacy__links{     
+        word-break: break-all;
+    }
+}
