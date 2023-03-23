@@ -42,7 +42,7 @@ const Index = () => {
                   name="EMAIL"
                   className="required email"
                   id="mce-EMAIL"
-                  required=""
+                  required
                   placeholder='Email'
                 />
                 <span id="mce-EMAIL-HELPERTEXT" className="helper_text" />
