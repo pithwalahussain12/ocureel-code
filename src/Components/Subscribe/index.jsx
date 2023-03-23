@@ -73,13 +73,18 @@ const Index = () => {
               </div>
               <div className="optionalParent">
                 <div className="clear foot">
-                  <input
+                  <button type="submit"
+                    defaultValue="Subscribe"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    className="button subscribe-btn">Subscribe</button>
+                  {/* <input
                     type="submit"
                     defaultValue="Subscribe"
                     name="subscribe"
                     id="mc-embedded-subscribe"
                     className="button subscribe-btn"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
