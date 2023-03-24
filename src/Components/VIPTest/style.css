@@ -60,6 +60,10 @@
         justify-content: space-around;
         align-items: center;
     }
+    .vip__textarea{
+        width: 65vw;
+        height: 15vh;
+    }
     .VIP__caption{
         color: white;
         font-weight:  600;

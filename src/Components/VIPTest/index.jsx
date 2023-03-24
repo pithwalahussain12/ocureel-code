@@ -39,6 +39,7 @@ const Index = () => {
                       name="FNAME"
                       className=""
                       id="mce-FNAME"
+                      required
                       placeholder='Name'
                     />
                     <span id="mce-FNAME-HELPERTEXT" className="helper_text" />
@@ -87,7 +88,7 @@ const Index = () => {
                       type="text"
                       defaultValue=""
                       name="MMERGE2"
-                      className=""
+                      className="vip__textarea"
                       id="mce-MMERGE2"
                       placeholder='Do you have an iOS device? Tell us why you should be in our VIP test group before Ocureel is released to public.'
                       rows={3}
