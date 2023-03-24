@@ -68,7 +68,7 @@ const TextContent = () => {
                     <div>
                         <h4>Need some inspiration?</h4>
                         <p>Share who I really am?! You’re not supposed to do that… If this sounds scary, don't worry! You always get to see other people go first. Watch other people who have played the game before you take the leap.</p>
-                        <button className='play__card3__btn'><Link to="/">Get Inspired</Link></button>
+                        <button className='play__card3__btn'><Link to="/get-inspired" style={{textDecoration: 'none', color: "black"}}>Get Inspired</Link></button>
                     </div>
                 </div>
                 <div className="play__card3__section2">
@@ -87,7 +87,7 @@ const TextContent = () => {
                         <p>It's time to share YOU! Don’t be boring and just be a spectator, <br />  contribute to Ocureel and play the game!!</p>
 
                         <p>Check out the Leaderboard to see how you can earn more points!</p>
-                        <button className='play__card3__btn'>Leaderboard</button>
+                        <button className='play__card3__btn'><Link to="/leaderboard" style={{textDecoration: 'none', color: "black"}}>Leaderboard</Link></button>
                     </div>
                 </div>
             </div>

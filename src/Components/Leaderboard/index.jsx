@@ -4,6 +4,7 @@ import Instructions from './Instructions'
 import ProgressInstruction from './ProgressInstruction'
 import theme from '../../assets/leaderboard-faces.png'
 import SpectatorCard from './Spectator'
+import graph from "../../assets/leaderboard-graph.jpg"
 import './style.css';
 
 const Leaderboard = () => {
@@ -22,13 +23,13 @@ const Leaderboard = () => {
 
 
 
-            {/* <div className="leaderboard__card2">
+            <div className="leaderboard__card2">
                 <div className="">
                     <h1 className="play__card1__title">Status</h1>
                     <p className='leaderboard__card1__text__content'>Everyone on Ocureel starts a SPECTATOR. <br /> As you start contributing to the game & earning points, you can advance to <br /> the next level and become a CONTRIBUTOR. From there you can advance to <br /> a ROLE MODEL, an INFLUENCER & finally a CELEBRITY!</p>
                 </div>
-                <ProgressInstruction/>
-            </div> */}
+                <img src={graph} alt="" width="100%"/>
+            </div>
 
             {/* <div className="spectator">
                 <SpectatorCard/>
