@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import theme from '../../assets/Got_questions.png'
 import Accordion from './QuestionsAccordion'
 import SnapScroll from './ScrollSnap';
@@ -67,7 +68,7 @@ const TextContent = () => {
                     <div>
                         <h4>Need some inspiration?</h4>
                         <p>Share who I really am?! You’re not supposed to do that… If this sounds scary, don't worry! You always get to see other people go first. Watch other people who have played the game before you take the leap.</p>
-                        <button className='play__card3__btn'>Get Inspired</button>
+                        <button className='play__card3__btn'><Link to="/">Get Inspired</Link></button>
                     </div>
                 </div>
                 <div className="play__card3__section2">

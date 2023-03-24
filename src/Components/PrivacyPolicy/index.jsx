@@ -108,36 +108,44 @@ function App() {
                     <p className="privacy__heading">
                         Social Media and Login Services
                     </p>
-                    . If you choose to link or sign up using &nbsp;a third-party social network
+                    <ul>
+                        <li>If you choose to link or sign up using &nbsp;a third-party social network
                     or login service (such as Facebook, Twitter, Instagram, or Google), we may
                     collect information from these services, including your contact lists for
                     these services and information relating to your use of the Platform in
                     relation to these services. If you link your Ocureel account to another
-                    service, we may receive information about your use of that service.
+                    service, we may receive information about your use of that service.</li>
+                    </ul>
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Third-Party Services
                     </p>
-                    . We may collect information about you from third-party services, such as
-                    advertising partners, data providers, and analytics providers.
+                    <ul>
+                        <li>We may collect information about you from third-party services, such as
+                    advertising partners, data providers, and analytics providers.</li>
+                    </ul>
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Other Users of the Platform
                     </p>
-                    . Sometimes other users of the Platform may provide us information about
-                    you, including through customer service inquiries.
+                    <ul>
+                        <li>Sometimes other users of the Platform may provide us information about
+                    you, including through customer service inquiries.</li>
+                    </ul>
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Other Sources
                     </p>
-                    . We may collect information about you from other publicly available
-                    sources.
+                    <ul>
+                        <li>We may collect information about you from other publicly available
+                    sources.</li>
+                    </ul>
                 </p>
                 <p>&nbsp;</p>
                 <p>
