@@ -114,7 +114,7 @@ const StageSlider = () => {
         nav
         loop
         autoplay
-        autoplayTimeout={1000}
+        autoplayTimeout={2000}
         autoplayHoverPause
       >
         {renderSlides()}
