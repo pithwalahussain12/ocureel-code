@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
 
-function Card() {
+function Card({title, points, followers}) {
   return (
     <div className="leaderboard-card">
       <div className="card-header">
-        <h2>Contributor</h2>
-        <p>To achieve Contributor status you must meet the Points & Follower requirements.</p>
+        <h2>{title}</h2>
+        <p style={{marginTop: '1rem'}}>To achieve Contributor status you must meet the Points & Follower requirements.</p>
       </div>
       <table>
         <thead>
@@ -14,38 +14,45 @@ function Card() {
             <th>Status</th>
             <th>Level</th>
             <th>Points</th>
+            {followers && <th>Followers</th>}
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 1</td>
-            <td>50</td>
+            <td>{points[0]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 2</td>
-            <td>500</td>
+            <td>{points[1]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 3</td>
-            <td>1000</td>
+            <td>{points[2]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 4</td>
-            <td>3000</td>
+            <td>{points[3]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 5</td>
-            <td>6000</td>
+            <td>{points[4]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
           <tr>
-            <td>Contributor</td>
+            <td>{title}</td>
             <td>Level 6</td>
-            <td>10000</td>
+            <td>{points[5]}</td>
+            {followers && <td>{followers[0]}</td>}
           </tr>
         </tbody>
       </table>

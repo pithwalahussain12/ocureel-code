@@ -8,6 +8,7 @@ import graph from "../../assets/leaderboard-graph.jpg"
 import './style.css';
 
 const Leaderboard = () => {
+    const data = [{title: "Contributor", points: [50, 500, 1000, 3000, 6000, 10000]}, {title: "Role Model", points: [10000, 20000, 30000, 40000, 50000, 60000], followers: [1000, 2000, 3000, 4000, 5000, 6000]}, {title: "Influencer", points: [100000, 250000, 50000, 1000000, 2500000, 5000000], followers: [10000, 25000, 50000, 100000, 250000, 500000]}, {title: "Celebrity", points: [10000000, 50000000, 100000000, 250000000, 500000000, 1000000000], followers: [1000000, 5000000, 10000000, 25000000, 50000000, 100000000]}]
     return (
         <div className="mt-5 leaderboard">
             <div className="leaderboard__card1">
@@ -31,14 +32,14 @@ const Leaderboard = () => {
                 <img src={graph} alt="" width="100%"/>
             </div>
 
-            {/* <div className="spectator">
+            <div className="spectator">
                 <SpectatorCard/>
-            </div> */}
+            </div>
 
             <div className="point__guide__card__group">
                 {
-                    [1, 2, 3, 4].map(ele=>(
-                        <Card/>
+                    data.map(ele=>(
+                        <Card title={ele.title} points={ele.points} followers={ele.followers}/>
                     ))
                 }
             </div>
