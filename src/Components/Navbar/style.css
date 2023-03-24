@@ -1,4 +1,6 @@
- 
+.navbar-custom{
+  z-index: 999999;  
+} 
 
 .navLink{
   font-family: Gilroy;

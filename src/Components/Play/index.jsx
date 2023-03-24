@@ -1,6 +1,7 @@
 import React from 'react';
 import theme from '../../assets/Got_questions.png'
 import Accordion from './QuestionsAccordion'
+import SnapScroll from './ScrollSnap';
 import './style.css';
 
 const TextContent = () => {
@@ -9,6 +10,7 @@ const TextContent = () => {
 
     return (
         <div className='play__container'>
+            <SnapScroll/>
             <div className="play__card1">
                 <div className="play__card1_section1">
                     <h1 className="play__card1__title">It's time for a BIG change!</h1>
