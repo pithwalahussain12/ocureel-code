@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from './Cards';
 import Instructions from './Instructions'
-import ProgressInstruction from './ProgressInstruction'
 import theme from '../../assets/leaderboard-faces.png'
 import SpectatorCard from './Spectator'
 import graph from "../../assets/leaderboard-graph.jpg"
@@ -16,7 +15,7 @@ const Leaderboard = () => {
                     <h1 className="play__card1__title">Earn Points</h1>
                     <p className='play__card1__text__content'>You earn points for each Ocureel you post! <br /> Each question in the game is worth a different amount of points. The deeper you go, the more points you’ll earn!</p>
                 </div>
-                <div className="leaderboard__smilies"><img src={theme} alt="" /></div>
+                <div className="leaderboard__smilies"><img src={theme} alt="" width="80%"/></div>
             </div>
             <div className="d-flex instruction__card__container">
                 <Instructions/>

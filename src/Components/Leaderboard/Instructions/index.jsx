@@ -1,7 +1,7 @@
 import React from 'react';
-import icon1 from "../../../assets/leaderboard-card-icon1.jpg"
-import icon2 from "../../../assets/leaderboard-card-icon2.jpg"
-import icon3 from "../../../assets/leaderboard-card-icon3.jpg"
+import icon1 from "../../../assets/leaderboard-card-icon1.png"
+import icon2 from "../../../assets/leaderboard-card-icon2.png"
+import icon3 from "../../../assets/leaderboard-card-icon3.png"
 import './Instructions.css';
 
 function CardGroup() {

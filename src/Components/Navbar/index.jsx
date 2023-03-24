@@ -10,9 +10,9 @@ function App() {
   };
 
   return (
-    <Navbar bg="light" expand="md" fixed="top" className="navbar-custom">
+    <Navbar bg="light" expand="md" fixed="top" className="navbar-custom hide-border">
       <Container>
-        <Navbar.Toggle onClick={handleToggle} aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle onClick={handleToggle} aria-controls="responsive-navbar-nav" className='nav-hamburger'/>
         <Navbar.Collapse id="responsive-navbar-nav" className={expanded ? 'show' : ''}>
           <Nav className="me-auto w-100 d-flex justify-content-center">
             <Nav.Link href="/" className='navLink'>Home</Nav.Link>

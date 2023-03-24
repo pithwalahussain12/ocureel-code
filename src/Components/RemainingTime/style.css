@@ -6,7 +6,7 @@
  
 
 .launching-counter {
-  background: url("https://images.pexels.com/photos/4577548/pexels-photo-4577548.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background: url("../../assets/home__background.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10vh 0vh;

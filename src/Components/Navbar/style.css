@@ -10,3 +10,43 @@
 .navbar-custom .navbar-collapse {
   top: 60px; /* adjust as needed */
 }
+
+.nav-hamburger:focus{
+  border: none;
+  outline: none;
+}
+.nav-hamburger:active{
+  border: none;
+  outline: none;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  outline: none;
+  border: none;
+}
+
+.hide-border .navbar-default .navbar-toggle:focus, 
+.hide-border .navbar-default .navbar-toggle:hover {
+  outline: none;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  outline: none;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: transparent;
+}
+.hide-border .navbar-default .navbar-toggle:focus,
+.hide-border .navbar-default .navbar-toggle:hover {
+  outline: none;
+}
+
+.hide-border .navbar-default .navbar-toggle:focus .icon-bar,
+.hide-border .navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: transparent;
+}

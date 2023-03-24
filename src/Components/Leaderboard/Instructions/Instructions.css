@@ -12,10 +12,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 .instruction__card img {
     object-fit: cover;
+    width: 15%;
 }
 
 .card-body {

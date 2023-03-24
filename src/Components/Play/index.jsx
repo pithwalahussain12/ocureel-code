@@ -54,7 +54,7 @@ const TextContent = () => {
                     </div>
                 </div>
                 <div className="play__card2__section2">
-                    <img src={theme} alt="" />
+                    <img src={theme} alt=""/>
                 </div>
             </div>
 

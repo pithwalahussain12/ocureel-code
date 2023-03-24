@@ -1,4 +1,4 @@
-.instruction__card__container{
+.instruction__card__container {
   width: 80vw;
 }
 
@@ -8,7 +8,8 @@
   width: 84%;
   text-align: left;
 }
-.leaderboard__card1__text{
+
+.leaderboard__card1__text {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -121,7 +122,7 @@
   font-size: 16px;
 }
 
-.spectator{
+.spectator {
   margin: 0;
   padding: 0;
   margin-left: -8rem;
@@ -151,21 +152,25 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .instruction__card__container{
+  .instruction__card__container {
     flex-direction: column;
   }
-  .leaderboard{
+
+  .leaderboard {
     width: 100vw;
   }
-  .leaderboard__card1{
+
+  .leaderboard__card1 {
     flex-direction: column;
     /* margin-top: 10rem; */
     height: auto;
 
   }
-  .leaderboard__smilies img{
+
+  .leaderboard__smilies img {
     width: 100%;
   }
+
   .point__guide__card__group {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -174,15 +179,21 @@
     justify-content: center;
     width: 100vw;
     margin: 7% 0% 10% 10%;
-  
+
   }
-  .spectator{
+
+  .spectator {
     width: 100vw;
     display: none;
   }
-  .leaderboard__card2{
-    width: 100vw;
+
+  .leaderboard__card2 {
+    width: 95%;
     padding: 1%;
-    margin-left: 2rem;
+  }
+
+  .leaderboard__card1__text__content {
+    word-wrap: break-word;
+    width: 95%;
   }
 }

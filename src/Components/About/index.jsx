@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-import vision from '../../assets/about-vision.jpg'
+import vision from '../../assets/about-vision.png'
 
 const Index = () => {
     return (
