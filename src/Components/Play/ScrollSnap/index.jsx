@@ -1,5 +1,4 @@
-// import React, { useEffect, useState } from 'react'
-// import "./style.css"
+import React from 'react';
 import img1 from '../../../assets/Artboard 1.jpg'
 import img2 from '../../../assets/Artboard 2.png'
 import img3 from '../../../assets/Artboard 3.png'
@@ -10,69 +9,6 @@ import img7 from '../../../assets/Artboard 7.png'
 import img8 from '../../../assets/Artboard 8.png'
 import img9 from '../../../assets/Artboard 9.png'
 import screen from '../../../assets/template.png'
-
-// const Index = () => {
-
-//   const [currentSlide, setCurrentSlide] = useState(0)
-
-// useEffect(() => {
-//   const interval = setInterval(() => {
-//     setCurrentSlide((currentSlide + 1) % 10);
-//   }, 2000);
-//   return () => clearInterval(interval);
-// }, [currentSlide]);
-
-//   return (
-//     <div className='snap-container' >
-//       <div className="slider">
-//         <div>
-//         <img src={screen} alt="" />
-//         </div>
-//         <div className="">
-//           <div className="item" />
-//           <div className="item" />
-//           <div className="item">
-//             <img src={img1} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img2} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img3} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img4} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img5} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img6} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img7} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img8} alt="" />
-//           </div>
-//           <div className="item">
-//             <img src={img9} alt="" />
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Index
-
-
-// import './style.css';
-
-
-
-
-import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -108,13 +44,16 @@ const StageSlider = () => {
       </div>
       <OwlCarousel
         className="owl-theme"
+        center={true}
         items={4}
         margin={0}
-        stagePadding={5}
-        nav
+        nav = {false}
+        dots={false}
+        mouseDrag={true}
+        touchDrag={true}
         loop
-        autoplay
-        autoplayTimeout={2000}
+        // autoplay
+        autoplayTimeout={1000}
         autoplayHoverPause
       >
         {renderSlides()}

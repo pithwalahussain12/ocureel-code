@@ -1,5 +1,4 @@
-
- /*
+/*
 .about__container{
     display: flex;
     min-width: 100vw;
@@ -54,112 +53,123 @@
 
 
 
- /* Style for the entire container */
- .about__container {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 1rem 2rem;
- }
+/* Style for the entire container */
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 8rem;
+}
 
- /* Style for the vision section */
- .about__vision {
-     width: 100%;
-     max-width: 800px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     margin-bottom: 50px;
-     text-align: center;
-     padding-top: 6rem;
- }
+/* Style for the vision section */
+.about__vision {
+    width: 35.125;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 6rem 0rem 0rem 6rem;
+}
+.about__vision h1, .about__vision p{
+    width: 27rem;
+}
 
- /* Style for the mission section */
- .about__mission {
-     width: 100%;
-     max-width: 800px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     text-align: center;
-     padding-top: 6rem;
- }
+/* Style for the mission section */
+.about__mission {
+    width: 38.875;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-top: 6rem;
+}
 
- /* Style for the headings */
- .about__heading {
-     font-size: 2rem;
-     font-weight: bold;
-     margin-top: 0;
-     margin-bottom: 20px;
-     font-family: GoodBrush;
- }
+.about__mission .about__mission__subheading, .about__list__item, .about__vision p{
+    font-family: Gilroy;
+}
+/* Style for the headings */
+.about__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: GoodBrush;
+}
 
- /* Style for the mission subheading */
- .about__mission__subheading {
-     font-size: 1rem;
-     font-weight: medium;
-     margin-bottom: 20px;
-     font-family: Gilroy;
- }
+/* Style for the mission subheading */
+.about__mission__subheading {
+    font-size: 1rem;
+    font-weight: medium;
+    margin-bottom: 20px;
+    font-family: Gilroy;
+}
 
- /* Style for the list */
- .about__list {
-     list-style: none;
-     margin: 0;
-     padding: 0;
-     text-align: start;
-     font-family: Gilroy;
- }
+/* Style for the list */
+.about__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    font-family: Gilroy;
+}
 
- /* Style for the list items */
- .about__list__item {
-     margin-bottom: 10px;
-     font-family: Gilroy;
- }
+/* Style for the list items */
+.about__list__item {
+    margin-bottom: 10px;
+    font-family: Gilroy;
+    height: 3rem;
+}
 
- .about__list__item::before {
-     content: "•";
- }
+.about__mission {
+    width: 32rem;
 
- /* Style for the vision image */
- .vision__image__container {
-     margin-top: 30px;
- }
+}
 
- .vision__image {
-     width: 60%;
-     max-width: 500px;
-     border-radius: 40rem;
- }
+.about__list__item::before {
+    content: "•";
+}
 
- /* Media queries for responsive design */
+/* Style for the vision image */
+.vision__image__container {
+    margin-top: 30px;
+}
 
- /* Small screens */
- @media (max-width: 767px) {
-     .about__container {
-         padding: 0 20px;
-     }
+.vision__image {
+    width: 60%;
+    max-width: 500px;
+    border-radius: 40rem;
+}
 
-     .about__vision,
-     .about__mission {
-         margin-bottom: 30px;
-     }
- }
+/* Media queries for responsive design */
 
- /* Medium and large screens */
- @media (min-width: 768px) {
-     .about__container {
-         flex-direction: row;
-         justify-content: space-between;
-         align-items: flex-start;
-     }
+/* Small screens */
+@media (max-width: 767px) {
+    .about__container {
+        padding: 0 20px;
+    }
 
-     .about__vision {
-         margin-right: 30px;
-         text-align: left;
-     }
+    .about__vision,
+    .about__mission {
+        margin-bottom: 30px;
+    }
+}
 
-     .about__mission {
-         text-align: left;
-     }
- }
+/* Medium and large screens */
+@media (min-width: 768px) {
+    .about__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .about__vision {
+        margin-right: 30px;
+        text-align: left;
+    }
+
+    .about__mission {
+        text-align: left;
+    }
+}

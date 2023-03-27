@@ -19,7 +19,7 @@ const Index = () => {
                 <ul className='about__list'>
                     <li className='about__list__item'> To inspire courage through real vulnerability </li>
                     <li className='about__list__item'> To draw people all over the world toward each other </li>
-                    <li className='about__list__item'> To be innovators and leaders that put people and their emotional health first </li>
+                    <li className='about__list__item'> To be innovators and leaders that put people and their emotional health first </li> <br />
                     <li className='about__list__item'> To use our success to build and create change for those most vulnerable in the world</li>
                 </ul>
 
