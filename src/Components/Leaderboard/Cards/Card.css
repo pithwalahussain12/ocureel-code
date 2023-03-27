@@ -2,6 +2,7 @@
     font-family: Gilroy;
     src: url(../../../fonts/Gilroy/Gilroy-Medium.ttf);
 }
+
 table {
     border-collapse: collapse;
     margin: 20px;
@@ -14,18 +15,20 @@ td {
     padding: 5px;
     text-align: left;
 }
-th{
+
+th {
     font: bold 12px Gilroy;
 }
 
-td{
+td {
     font-size: 11px;
     font-weight: 500;
     font-family: Gilroy;
 }
 
 
-th, tr:not(:last-child) {
+th,
+tr:not(:last-child) {
     border-bottom: 1px solid #ccc;
 }
 
@@ -47,8 +50,17 @@ th, tr:not(:last-child) {
     letter-spacing: 0px;
     color: #000000;
 }
+
 .card-header p {
     font-family: Gilroy;
     font-weight: 500;
     font-size: 11px;
+}
+
+@media only screen and (max-width: 480px) {
+    .leaderboard-card {
+        margin-left: 0;
+        width: 90%;
+
+    }
 }
