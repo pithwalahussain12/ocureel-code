@@ -153,6 +153,14 @@
     .about__vision,
     .about__mission {
         margin-bottom: 30px;
+        
+    }
+    .about__vision p{
+        width: 95vw;
+    }
+    .about__mission {
+        margin-bottom: 30px;
+        width: 90vw;
     }
 }
 

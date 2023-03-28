@@ -19,7 +19,7 @@ const Footer = () => {
                 </Col>
                 <Col className="d-flex justify-content-center justify-content-md-end">
                     <Col md={4} className="text-center text-md-start w-auto">
-                        <Row ><a href="/subscribe" className='link-unstyled'>Subscribe</a></Row>
+                        {/* <Row ><a href="/subscribe" className='link-unstyled'>Subscribe</a></Row> */}
                         <Row><a href="/support" className='link-unstyled'>Support</a></Row>
                         <Row><a href="/press" className='link-unstyled'>Press</a></Row>
                         <Row><a href="/privacy-policy" className='link-unstyled'>Privacy Policy</a></Row>

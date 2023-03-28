@@ -33,9 +33,9 @@ function LaunchingCounter() {
 		<>
 			<div className="launching-counter">
 				<img src={logo} alt="" className="home-logo" />
-				<div className="launching-counter-title">Launch Party Begins in</div>
-				<div className="launching-counter-values">
-					<div className="launching-counter-item">
+				{/* <div className="launching-counter-title">Launch Party Begins in</div> */}
+				{/* <div className="launching-counter-values"> */}
+					{/* <div className="launching-counter-item">
 						<div className="launching-counter-value">{countdown.days}</div>
 						<div className="launching-counter-label">Days</div>
 					</div>
@@ -51,16 +51,16 @@ function LaunchingCounter() {
 						<div className="launching-counter-value">{countdown.seconds}</div>
 						<div className="launching-counter-label">Seconds</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="app-store-btn">
-					<p>Available on</p>
+					{/* <p>Available on</p> */}
 					&nbsp;<AppStoreBtn /> &nbsp;
-					<p>on April 1st, 2023</p>
+					{/* <p>on April 1st, 2023</p> */}
 				</div>
 			</div>
-			<div className="vip-test">
+			{/* <div className="vip-test">
 				<VipTest/>
-			</div>
+			</div> */}
 		</>
 	);
 }

@@ -108,44 +108,36 @@ function App() {
                     <p className="privacy__heading">
                         Social Media and Login Services
                     </p>
-                    <ul>
-                        <li>If you choose to link or sign up using &nbsp;a third-party social network
+                    • If you choose to link or sign up using &nbsp;a third-party social network
                     or login service (such as Facebook, Twitter, Instagram, or Google), we may
                     collect information from these services, including your contact lists for
                     these services and information relating to your use of the Platform in
                     relation to these services. If you link your Ocureel account to another
-                    service, we may receive information about your use of that service.</li>
-                    </ul>
+                    service, we may receive information about your use of that service.
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Third-Party Services
                     </p>
-                    <ul>
-                        <li>We may collect information about you from third-party services, such as
-                    advertising partners, data providers, and analytics providers.</li>
-                    </ul>
+                    • We may collect information about you from third-party services, such as
+                    advertising partners, data providers, and analytics providers.
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Other Users of the Platform
                     </p>
-                    <ul>
-                        <li>Sometimes other users of the Platform may provide us information about
-                    you, including through customer service inquiries.</li>
-                    </ul>
+                    • Sometimes other users of the Platform may provide us information about
+                    you, including through customer service inquiries.
                 </p>
                 <p>&nbsp;</p>
                 <p>
                     <p className="privacy__heading">
                         Other Sources
                     </p>
-                    <ul>
-                        <li>We may collect information about you from other publicly available
-                    sources.</li>
-                    </ul>
+                    • We may collect information about you from other publicly available
+                    sources.
                 </p>
                 <p>&nbsp;</p>
                 <p>
@@ -554,12 +546,12 @@ function App() {
                         decide whether you see certain types of interest-based advertising on the
                         Platform by visiting your in-app settings.
                     </li>
-                    <li className='privacy__links'>
+                    <li>
                         You may be able to manage third-party advertising preferences for some of
                         the third parties we work with to serve advertising across the Internet by
                         using the choices available at&nbsp;
                         <a
-                            className="privacy__link"
+                            className="x-el x-el-a c1-3q c1-3r c1-6g c1-1z c1-20 c1-6h c1-22 c1-6i c1-b c1-6j c1-3w c1-2e c1-2f"
                             href="https://www.networkadvertising.org/managing/opt_out.asp"
                             target="_blank"
                             rel="noopener"
@@ -568,7 +560,7 @@ function App() {
                         </a>
                         &nbsp;and&nbsp;
                         <a
-                            className="privacy__link"
+                            className="x-el x-el-a c1-3q c1-3r c1-6g c1-1z c1-20 c1-6h c1-22 c1-6i c1-b c1-6j c1-3w c1-2e c1-2f"
                             href="https://www.aboutads.info/choices"
                             target="_blank"
                             rel="noopener"
@@ -740,6 +732,7 @@ function App() {
                         </a>
                     </li>
                 </ul>
+
             </>
 
         </div>
@@ -747,3 +740,84 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<>
+</>

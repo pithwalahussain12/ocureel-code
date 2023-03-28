@@ -25,13 +25,13 @@ function App() {
         <Route path='/press' element={<Press />} />
         <Route path='/get-inspired' element={<GetInspired />} />
         <Route path='/about' element={<About />} />
-        <Route path='/subscribe' element={<Subscribe />} />
+        {/* <Route path='/subscribe' element={<Subscribe />} /> */}
         <Route path='/play' element={<Play />} />
         <Route path='/leaderboard' element={<Leaderboard />} />
         <Route path='/support' element={<Support />} />
         <Route path='/privacy-policy' element={<Privacy />} />
         <Route path='/terms-of-service' element={<TermsOfService />} />
-        <Route path='*' element={<>404 - Not found</>} />
+        <Route path='*' element={<h1 style={{marginTop: "8rem", display: "flex", justifyContent: "center"}}>404 - Not found</h1>} />
         
       </Routes>
       <Footer />
