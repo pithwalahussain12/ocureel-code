@@ -7,7 +7,7 @@ function App() {
         <Container fluid className="p-5 mt-5 tos__container">
             <h1 className='tos__heading'>Terms of Service</h1>
             <ul>
-                <li>
+                <li style={{listStyle: "none"}}>
                     <div
                         id="b05baaa8-b214-42f5-bce0-19c4c94557c1"
                         className="widget widget-privacy widget-privacy-privacy-1"
@@ -40,7 +40,7 @@ function App() {
                                                 data-typography="BodyAlpha"
                                                 data-font-scaled="true"
                                             >
-                                                <p>For users in the United States</p>
+                                                <p style={{listStyle: "none"}}>For users in the United States</p>
                                                 <p>Last updated: September 25th 2022</p>
                                                 <p>&nbsp;</p>
                                                 <div>
