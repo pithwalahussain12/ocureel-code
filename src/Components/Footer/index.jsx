@@ -15,7 +15,7 @@ const Footer = () => {
                     <img src={logo} alt="Logo" width="50%" />
                 </Col>
                 <Col md={4} className="text-start">
-                    <p className='footer__about__ocureel'>OCUREEL is a free-to-play mobile video game that guides you on the ultimate adventure of building relationships and real-life connections. As you play the game, you can share video content and advance through levels based on your interactions and contributions <br /> be SEEN be YOU!</p>
+                    <p className='footer__about__ocureel'>Ocureel is a one of a kind video sharing game that guides you on the ultimate adventure of creating real life connections & building deep relationships. be SEEN. be YOU.</p>
                 </Col>
                 <Col className="d-flex justify-content-center justify-content-md-end">
                     <Col md={4} className="text-center text-md-start w-auto">

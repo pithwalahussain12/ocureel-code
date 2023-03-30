@@ -215,19 +215,18 @@
     letter-spacing: 0px;
     color: #000000;
 } */
-.play__card3__points p::before {
-    content: "🗸";
+.play__card3__points div {
+    display: flex;
+}
+.check__mark{
     background-color: #e9ebf6;
     border: none;
     border-radius: 200rem;
-    padding: 1px 5px;
+    padding: 1px 1px;
+    margin-top: .3rem;
     margin-right: 10px;
+
 }
-
-
-
-
-
 
 
 

@@ -3,15 +3,37 @@ import { Link } from 'react-router-dom';
 import theme from '../../assets/Got_questions.png'
 import Accordion from './QuestionsAccordion'
 import SnapScroll from './ScrollSnap';
+import { BsCheckLg } from "react-icons/bs"
 import './style.css';
 
 const TextContent = () => {
 
-    const questions = [{ title: "What is Ocureel?", content: "Accordion Content 3" }, { title: "How do I play?", content: "Accordion Content 3" }, { title: "Still scared?", content: "Accordion Content 3" }, { title: "How do I find genuine friends?", content: "Accordion Content 3" }, { title: "How do I play the daily challenge?", content: "Accordion Content 3" }]
+    const questions = [
+        {
+            title: "What is Ocureel?",
+            content: "An ocureel (ah-cue-real) is a video where you can be seen for who you really are. "
+        },
+        {
+            title: "How do I play?",
+            content: "Ocureel guides the content you watch and record but ultimately, you get to CHOOSE YOUR ADVENTURE! What path will you take? You can Reveal, Freestyle, play the daily Challenge or LINK up with our 1-on-1 game."
+        },
+        {
+            title: "Still scared?",
+            content: "Are you ready to share your story but aren’t ready for anyone to know it’s you? You can still play! Our unique masking feature allows you to post a video and hide your identity. When you’re ready, you can remove the mask and reveal yourself! If you’re never ready… that’s ok too!"
+        },
+        {
+            title: "How do I find genuine friends?",
+            content: "LINKS are our 1-on-1 connection game designed to take the guesswork out of making deep connections. Wether you are looking to connect on a deeper level with your existing friends, kids, parents, partner, spouse, etc. or are trying to meet new people, we've got you covered! "
+        },
+        {
+            title: "How do I play the daily challenge?",
+            content: "Ocureel will keep you on your toes! At a random time each day you will receive a notification to record the daily challenge. Each challenge is worth a different amount of points and every day you'll have a different amount of time to record. Launch the camera with 1 second left and you'll earn points for posting! If you miss the time window you can still play for fun!"
+        }
+    ]
 
     return (
         <div className='play__container'>
-            <SnapScroll/>
+            <SnapScroll />
             <div className="play__card1">
                 <div className="play__card1_section1">
                     <h1 className="play__card1__title">It's time for a BIG change!</h1>
@@ -21,7 +43,7 @@ const TextContent = () => {
                 </div>
                 <div className="play__card1__section2">
                     <p className='play__card1__section2__text'>And then all of a sudden your life seemed super lame?! Do you hate the pressure to constantly use filters to show a flawless version of yourself?</p>
-                    <h3>YEAH… WE TOO AND WE HAD ENOUGH!</h3>
+                    <h3>YEAH… US TOO AND WE HAD ENOUGH!</h3>
                     <p className='play__card1__section2__text__light'>Nobody likes being fake! Well… some people do and they might not like our <br /> game very much.</p>
                     <p className='play__card1__section2__patent'>Our <b>PATENT PENDING</b> game is designed to bring life and help you feel good<br /> about the time you spend on your phone. Ocureel is the <b>ULTIMATE GAME of<br /> QUESTIONS.</b> Where you get to be YOU and nobody can hate on you or make <br /> you feel bad about it!</p>
 
@@ -54,7 +76,7 @@ const TextContent = () => {
                     </div>
                 </div>
                 <div className="play__card2__section2">
-                    <img src={theme} alt=""/>
+                    <img src={theme} alt="" />
                 </div>
             </div>
 
@@ -68,7 +90,7 @@ const TextContent = () => {
                     <div>
                         <h4>Need some inspiration?</h4>
                         <p>Share who I really am?! You’re not supposed to do that… If this sounds scary, don't worry! You always get to see other people go first. Watch other people who have played the game before you take the leap.</p>
-                        <button className='play__card3__btn'><Link to="/get-inspired" style={{textDecoration: 'none', color: "black"}}>Get Inspired</Link></button>
+                        <button className='play__card3__btn'><Link to="/get-inspired" style={{ textDecoration: 'none', color: "black" }}>Get Inspired</Link></button>
                     </div>
                 </div>
                 <div className="play__card3__section2">
@@ -79,15 +101,15 @@ const TextContent = () => {
                     <p className='play__card3__section2__subheader'>There are a ton of ways to earn points and move up the leaderboard.</p>
 
                     <div className="play__card3__points">
-                        <p>As you play the game, you'll earn points for each ocureel you post!</p>
+                        <div><BsCheckLg className='check__mark'/><p>As you play the game, you'll earn points for each ocureel you post!</p></div>
 
-                        <p>Each question in the game is worth different points. The deeper you go, <br /> the more points you’ll earn! </p>
-                        <p>On Ocureel, your status is based off being real & authentic. and NOT how <br />  good you look!</p>
+                        <div><BsCheckLg className='check__mark'/><p>Each question in the game is worth different points. The deeper you go, <br /> the more points you’ll earn! </p></div>
+                        <div><BsCheckLg className='check__mark'/><p>On Ocureel, your status is based off being real & authentic. and NOT how <br />  good you look!</p></div>
 
-                        <p>It's time to share YOU! Don’t be boring and just be a spectator, <br />  contribute to Ocureel and play the game!!</p>
+                        <div><BsCheckLg className='check__mark'/><p>It's time to share YOU! Don’t be boring and just be a spectator, <br />  contribute to Ocureel and play the game!!</p></div>
 
-                        <p>Check out the Leaderboard to see how you can earn more points!</p>
-                        <button className='play__card3__btn'><Link to="/leaderboard" style={{textDecoration: 'none', color: "black"}}>Leaderboard</Link></button>
+                        <div><BsCheckLg className='check__mark'/><p>Check out the Leaderboard to see how you can earn more points!</p></div>
+                        <button className='play__card3__btn'><Link to="/leaderboard" style={{ textDecoration: 'none', color: "black" }}>Leaderboard</Link></button>
                     </div>
                 </div>
             </div>

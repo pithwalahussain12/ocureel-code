@@ -168,6 +168,14 @@
 
   }
 
+  .leaderboard__card1__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    margin-left: 0rem;
+  }
+
   .leaderboard__smilies img {
     width: 100%;
   }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './Card.css';
 
-function Card({title, points, followers}) {
+function Card({title, points, followers, subTitle}) {
   return (
     <div className="leaderboard-card">
       <div className="card-header">
         <h2>{title}</h2>
-        <p style={{marginTop: '1rem'}}>To achieve Contributor status you must meet the Points & Follower requirements.</p>
+        <p style={{marginTop: '1rem'}}>{subTitle}</p>
       </div>
       <table>
         <thead>
