@@ -3,7 +3,8 @@ import VideoPlayer from './VideoPlayer'
 import "./style.css"
 
 const Index = () => {
-  const videoId = [{ id: "804736385", cardTitle: "What is something bad you've experienced, that actually turned out to be for the best?" },
+  const videoId = [
+  { id: "804736385", cardTitle: "What is something bad you've experienced, that actually turned out to be for the best?" },
   { id: "804744289", cardTitle: "What has been the hardest relationship you've lost or had to mourn losing?" },
   { id: "804735441", cardTitle: "Random Acts of Kindness" },
   { id: "804736156", cardTitle: "Have you ever been or felt abandoned?" },
@@ -13,8 +14,8 @@ const Index = () => {
   { id: "804748930", cardTitle: "What is one thing you've tried to make sure no one knows about you?" },
   { id: "804753282", cardTitle: "Were you abandoned by your parents? Was it physically or emotionally?" },
   { id: "804755366", cardTitle: "What is something bad you've experienced, that actually turned out to be for the best?" },
-  { id: "804748707", cardTitle: "What is something bad you've experienced, that actually turned out to be for the best?" },
-  { id: "804757684", cardTitle: "What is something bad you've experienced, that actually turned out to be for the best?" }]
+  { id: "804748707", cardTitle: "A random question at a random time every day!", cardHead: "Ocureel Daily Challenge!"},
+  { id: "804757684", cardTitle: "NO FILTERS! NO HATE! ONLY POSITIVITY!", cardHead: "Ocureel Reveal"}]
   return (
     <div className='get__inspired'>
       <div className="caption">
@@ -28,8 +29,8 @@ const Index = () => {
       <div className='grid-container '>
 
         {
-          videoId.map(({ id, cardTitle }, index) => (
-            <VideoPlayer videoId={id} cardTitle={cardTitle} place={index} />
+          videoId.map(({ id, cardTitle, cardHead}, index) => (
+            <VideoPlayer videoId={id} cardTitle={cardTitle} place={index} head={cardHead && cardHead}/>
           ))
         }
 

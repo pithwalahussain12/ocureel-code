@@ -1,3 +1,8 @@
+.getInspired__partition{
+    border-bottom: 1px solid black;
+    margin-top: 6rem;
+    width: 100vw;
+}
 .player {
     z-index:  0 ;
     margin-left: 20rem;

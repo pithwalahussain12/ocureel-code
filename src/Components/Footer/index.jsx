@@ -2,23 +2,23 @@
 import './style.css';
 import logo from '../../assets/footer__logo.png';
 import { FiTwitter } from 'react-icons/fi'
-import { Link } from 'react-router-dom';
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <Container fluid className="text-dark py-5 px-12 w-100">
+        <Container fluid className="text-dark py-5 w-100 footer__container">
             <Row>
-                <Col md={4} className="text-center text-md-start">
+                <Col className="text-center text-md-start">
                     <img src={logo} alt="Logo" width="50%" />
                 </Col>
                 <Col md={4} className="text-start">
                     <p className='footer__about__ocureel'>Ocureel is a one of a kind video sharing game that guides you on the ultimate adventure of creating real life connections & building deep relationships. be SEEN. be YOU.</p>
                 </Col>
                 <Col className="d-flex justify-content-center justify-content-md-end">
-                    <Col md={4} className="text-center text-md-start w-auto">
+                    <Col md={4} className="text-center text-md-start w-auto mt-4">
                         {/* <Row ><a href="/subscribe" className='link-unstyled'>Subscribe</a></Row> */}
                         <Row><a href="/support" className='link-unstyled'>Support</a></Row>
                         <Row><a href="/press" className='link-unstyled'>Press</a></Row>
@@ -30,7 +30,7 @@ const Footer = () => {
             </Row>
             <Row className='copyright'>
                 <Col>&copy; Ocureel Patent Pending</Col>
-                <Col className='twitter-icon'><FiTwitter /></Col>
+                <Col className='twitter-icon'><Link to="https://twitter.com/ocureel"><FiTwitter /></Link></Col>
             </Row>
         </Container>
     );

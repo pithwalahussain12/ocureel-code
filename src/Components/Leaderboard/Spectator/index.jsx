@@ -19,7 +19,7 @@ function Card() {
           </tr>
           <tr>
             <td>Spectator</td>
-            <td className="spectator-table-head2">Level</td>
+            <td className="spectator-table-head2">Level 1</td>
           </tr>
         </tbody>
       </table>

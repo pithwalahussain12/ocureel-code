@@ -1,13 +1,9 @@
- 
+.footer__container{
+  background-color: #f8f9fa;
+  border-top: 1px solid black;
+  /* margin-top: 2rem; */
+} 
 
-.footer__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  width: 100vw;
-  overflow: hidden;
-  padding-top: 4rem;
-}
 
 
 .footer {
@@ -65,7 +61,7 @@
 
 .twitter-icon {
   font-size: 1.5rem;
-  margin-top: 0rem;
+  margin-top: -0.5rem;
   /* width: fit-content; */
   display: flex;
   justify-content: end;
@@ -89,10 +85,11 @@
 .copyright{
   display: flex;
   justify-content: space-between;
-  width: 94vw;
+  width: 99vw;
   border-top: 1px solid gray;
-  height: 4vh;
-  padding-top: 2rem;
+  height: 0vh;
+  padding-top: 1rem;
+
 }
 
 

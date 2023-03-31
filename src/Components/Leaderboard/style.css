@@ -90,7 +90,6 @@
   color: #fff;
   display: flex;
   justify-content: center;
-  /* align */
 }
 
 
@@ -141,11 +140,8 @@
 .point__guide__card__group {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
-  /* Two rows with equal height */
   grid-template-columns: repeat(2, 1fr);
-  /* Two columns with equal width */
   gap: 5%;
-  /* Set a gap between grid items */
   justify-content: center;
   width: 70vw;
   margin: 2% 0% 5% 0%;
@@ -163,9 +159,7 @@
 
   .leaderboard__card1 {
     flex-direction: column;
-    /* margin-top: 10rem; */
     height: auto;
-
   }
 
   .leaderboard__card1__text {

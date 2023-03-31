@@ -27,7 +27,7 @@
 .instruction__card__title {
     font-size: 18px;
     font-weight: 600;
-    word-break: break-all;
+    /* word-break: break-all; */
     width: 100%;
     /* margin-bottom: 10px; */
 }
@@ -70,5 +70,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    .instruction__card__title {
+        font-weight: bold;
+        width: 100%;
     }
 }

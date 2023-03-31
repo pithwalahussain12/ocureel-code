@@ -24,11 +24,13 @@ class VimeoPlayer extends React.Component {
 
   render() {
     return (
+      <>
       <div className={this.props.place % 2 ? 'vimeo__container' : 'even__vimeo__container'}>
         <div ref={this.vimeoPlayer} className="player" />
-        <Card title={this.props.cardTitle} place={this.props.place}/>
+        <Card title={this.props.cardTitle} place={this.props.place} head={this.props.head}/>
       </div>
-
+        {this.props.videoId === "804755366" && <div className='getInspired__partition'/>}
+      </>
     );
   }
 }

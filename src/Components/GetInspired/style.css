@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
+    margin-bottom: 2rem;
 }
 
 .caption h1{

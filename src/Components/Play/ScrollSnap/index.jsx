@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import img1 from '../../../assets/Artboard 1.jpg'
 import img2 from '../../../assets/Artboard 2.png'
 import img3 from '../../../assets/Artboard 3.png'
@@ -27,6 +27,8 @@ const images = [
 ];
 
 const StageSlider = () => {
+  const [current, setCurrent] = useState(0);
+  const carouselRef = useRef(null);
   const renderSlides = () => (
     images.map(({ id, src }) => (
       <div key={id} className="item">
@@ -35,19 +37,25 @@ const StageSlider = () => {
     ))
   );
 
+  const handleRightClick = () => {
+    setCurrent(current + 1);
+    carouselRef.current.next();
+  };
+
+  const handleLeftClick = () => {
+    setCurrent(current - 1);
+    carouselRef.current.prev();
+  };
+
   return (
     <div className="stage-slider-wrapper">
-      {/* <div className="slider-blur"></div> */}
-      <div className="screen">
-        <img src={screen} alt="" />
-        <img src={screen} alt="" className='snap-img-2' />
-      </div>
       <OwlCarousel
+        ref={carouselRef}
         className="owl-theme"
         center={true}
         items={4}
         margin={0}
-        nav = {false}
+        nav={true}
         dots={false}
         mouseDrag={true}
         touchDrag={true}
@@ -58,7 +66,6 @@ const StageSlider = () => {
       >
         {renderSlides()}
       </OwlCarousel>
-      {/* <div className="slider-blur"></div> */}
     </div>
   );
 };
