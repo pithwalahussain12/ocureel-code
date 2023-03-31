@@ -35,4 +35,7 @@
         padding: 0;
 
     }
+    .getInspired__partition{
+        display: none;
+    }
 }
