@@ -2,18 +2,15 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/ticketgateway-frontend
+    destination: /home/ubuntu/ocureel-code  #my-cicd is the name of repository
     overwrite: true
 file_exists_behavior: OVERWRITE
-permissions:
-  - object: /var/www/ticketgateway-frontend
-    owner: ubuntu
-    group: ubuntu
-    mode: 777
 hooks:
   AfterInstall:
-    - location: afterinstall.sh
-      timeout: 100
+    - location: scripts/after_install.sh
+      timeout: 300
+      runas: root
   ApplicationStart:
-    - location: applicationstart.sh
-      timeout: 100
+    - location: scripts/application_start.sh
+      timeout: 300
+      runas: root
